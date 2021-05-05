@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TrivagoSuite" duration-ms="68293" started-at="2021-05-05T13:30:51 IST" finished-at="2021-05-05T13:31:59 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="68293" started-at="2021-05-05T13:30:51 IST" finished-at="2021-05-05T13:31:59 IST">
+      <class name="com.qa.Testscripts.Trivago_TC">
+        <test-method status="PASS" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.Testscripts.Trivago_TC@3cef309d]" name="setUp" is-config="true" duration-ms="9451" started-at="2021-05-05T13:30:51 IST" finished-at="2021-05-05T13:31:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.Trivago.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SearchItem(java.lang.String)[pri:0, instance:com.qa.Testscripts.Trivago_TC@3cef309d]" name="SearchItem" duration-ms="7680" started-at="2021-05-05T13:31:11 IST" data-provider="getData" finished-at="2021-05-05T13:31:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mahabaleshwar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchItem -->
+        <test-method status="PASS" signature="SearchItem(java.lang.String)[pri:0, instance:com.qa.Testscripts.Trivago_TC@3cef309d]" name="SearchItem" duration-ms="5823" started-at="2021-05-05T13:31:20 IST" data-provider="getData" finished-at="2021-05-05T13:31:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dubai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchItem -->
+        <test-method status="PASS" signature="SearchItem(java.lang.String)[pri:0, instance:com.qa.Testscripts.Trivago_TC@3cef309d]" name="SearchItem" duration-ms="5840" started-at="2021-05-05T13:31:25 IST" data-provider="getData" finished-at="2021-05-05T13:31:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Singapore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchItem -->
+        <test-method status="PASS" signature="SearchItem(java.lang.String)[pri:0, instance:com.qa.Testscripts.Trivago_TC@3cef309d]" name="SearchItem" duration-ms="5968" started-at="2021-05-05T13:31:31 IST" data-provider="getData" finished-at="2021-05-05T13:31:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Goa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchItem -->
+        <test-method status="PASS" signature="SearchItem(java.lang.String)[pri:0, instance:com.qa.Testscripts.Trivago_TC@3cef309d]" name="SearchItem" duration-ms="5504" started-at="2021-05-05T13:31:37 IST" data-provider="getData" finished-at="2021-05-05T13:31:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Keral]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchItem -->
+        <test-method status="PASS" signature="SearchItem(java.lang.String)[pri:0, instance:com.qa.Testscripts.Trivago_TC@3cef309d]" name="SearchItem" duration-ms="5696" started-at="2021-05-05T13:31:43 IST" data-provider="getData" finished-at="2021-05-05T13:31:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchItem -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:com.qa.Testscripts.Trivago_TC@3cef309d]" name="Logout" is-config="true" duration-ms="11088" started-at="2021-05-05T13:31:48 IST" finished-at="2021-05-05T13:31:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- com.qa.Testscripts.Trivago_TC -->
+    </test> <!-- Test -->
+  </suite> <!-- TrivagoSuite -->
+</testng-results>

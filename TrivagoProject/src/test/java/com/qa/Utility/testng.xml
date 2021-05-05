@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TrivagoSuite">
+<listeners>
+<listener class-name = "com.qa.Utility.Reporting"></listener>  
+</listeners>
+  <test thread-count="5" name="Test">
+  <parameter name="Url" value="https://www.Trivago.com"></parameter>
+  <parameter name="Browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.qa.Testscripts.Trivago_TC"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- TrivagoSuite -->

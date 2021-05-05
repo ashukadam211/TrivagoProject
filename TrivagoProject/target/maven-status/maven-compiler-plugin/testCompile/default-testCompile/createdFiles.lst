@@ -1,0 +1,5 @@
+com\qa\Utility\Reporting.class
+com\qa\Testscripts\TestBase.class
+com\qa\Utility\ExcelUtility.class
+com\qa\Testscripts\Trivago_TC.class
+com\qa\Pages\Trivago_pg.class
